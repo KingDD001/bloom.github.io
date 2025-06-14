@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREIFA</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/js/script.js">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Remix Icon -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+<!-- Bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+<header class="bg-light shadow-sm py-2">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+
+      <!-- Logo -->
+      <div class="d-flex align-items-center">
+        <img src="assets/IMAGES/beauty-removebg-preview.png" alt="Logo" class="me-2" width="35px">
+        <h5 style="color: rgb(251, 3, 86); font-family: 'Courier New', Courier, monospace; font-weight: 600;">BREIFA</h5>
+        <!-- <span class="fw-bold fs-5 d-none d-md-inline">MyStore</span> -->
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="d-none d-md-flex gap-3">
+        <a href="index.html" class="nav-link text-dark">Home</a>
+        <a href="projects.html" class="nav-link text-dark">Projects</a>
+        <a href="about.html" class="nav-link text-dark">About</a>
+        <a href="reviews.html" class="nav-link text-dark">Reviews</a>
+        <a href="services.html" class="nav-link text-dark">Services</a>
+        <a href="ceo.html" class="nav-link text-dark">Ceo</a>
+        <a href="contact.html" class="nav-link text-dark">Contact</a>
+      </nav>
+
+      <!-- Right Section -->
+      <div class="d-flex align-items-center">
+        <!-- Desktop Search Bar -->
+        <div class="d-none d-md-block">
+          <input type="text" class="form-control form-control-sm" placeholder="Search...">
+        </div>
+        <a href="#" class="btn text-dark d-none d-md-block">
+          <i class="ri-login-circle-line"></i>
+        </a>
+        <a href="#" class="btn text-dark d-none d-md-block">
+          <i class="ri-shopping-cart-2-line"></i>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button class="btn btn-outline-secondary d-md-none" id="menuToggle">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="d-md-none mt-2">
+      <nav class="mb-2 d-flex flex-column align-items-center">
+        <a href="index.html" class="nav-link text-dark">Home</a>
+        <a href="projects.html" class="nav-link text-dark">Projects</a>
+        <a href="about.html" class="nav-link text-dark">About</a>
+          <a href="reviews.html" class="nav-link text-dark">Reviews</a>
+          <a href="services.html" class="nav-link text-dark">Services</a>
+        <a href="ceo.html" class="nav-link text-dark">Ceo</a>
+        <a href="contact.html" class="nav-link text-dark">Contact</a>
+      </nav>
+      <div class="mb-3">
+        <a href="#" class="btn w-100">
+          <i class="ri-login-circle-line"></i>
+        </a>
+        <a href="#" class="btn w-100 mb-2">
+          <i class="ri-shopping-cart-2-line"></i>
+        </a>
+      </div>
+      <input type="text" class="form-control" placeholder="Search...">
+    </div>
+  </div>
+</header>  
+
+<br><br>
+<!-- FAQ -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4" style="color: rgb(251, 3, 86); font-family: 'Courier New', Courier, monospace; font-weight: 600;">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                What beauty services do you offer?
+                            </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We provide makeup, pedicures, manicures, nail art, gele tying, hairstyling, hair care, and more!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                Do I need to book an appointment, or do you accept walk-ins?
+                            </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We recommend booking an appointment, but we do accommodate walk-ins based on availability.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                How can I book a session?
+                            </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can book through our website, call us, or send an email to schedule an appointment.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                Do you offer bridal and special event packages?
+                            </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes! We have customized beauty packages for brides, parties, and special occasions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                What types of makeup looks do you specialize in?
+                            </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We offer everything from natural glam to bold and dramatic styles, tailored to your preference.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                What nail services do you provide?
+                            </button>
+                    </h2>
+                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our nail services include, gel polish, nail extensions, designs, and basic manicures/pedicures.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                Do you offer hairstyling for natural and relaxed hair?
+                            </button>
+                    </h2>
+                    <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           Yes, we cater to all hair types, providing styling, treatments, braids, and updos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                How long does a typical appointment take?
+                            </button>
+                    </h2>
+                    <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           It depends on the service! Manicures take about 30 minutes, while makeup sessions can last up to an hour.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                                Do you sell beauty products or accessories?
+                            </button>
+                    </h2>
+                    <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes! We offer a range of beauty products, hair accessories, and skincare essentials.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                                What are your working hours?
+                            </button>
+                    </h2>
+                    <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We are open Monday to Saturday from 9 AM to 6 PM. Closed on Sundays.
+                            Special hours may apply during holidays.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq11" aria-expanded="false" aria-controls="faq11">
+                                What payment methods do you accept?
+                            </button>
+                    </h2>
+                    <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           We accept cash, card, and mobile payments.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq12" aria-expanded="false" aria-controls="faq12">
+                                Are your prices fixed?
+                            </button>
+                    </h2>
+                    <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our prices are generally fixed, but we do offer seasonal promotions and discounts on certain services.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq13" aria-expanded="false" aria-controls="faq13">
+                                Can I cancel or reschedule my appointment?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq13" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, cancellations or rescheduling must be done at least 2 days in advance.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq14" aria-expanded="false" aria-controls="faq14">
+                                Do you offer group bookings?
+                            </button>
+                    </h2>
+                    <div id="faq14" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           Absolutely! We cater to group bookings for parties, bridal showers, and other events.
+                        </div>
+                    </div>
+                </div>
+ <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq15" aria-expanded="false" aria-controls="faq15">
+                                What hygiene practices do you follow?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq15" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We adhere to strict hygiene standards, including sterilizing tools and maintaining a clean environment.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq16" aria-expanded="false" aria-controls="faq16">
+                               Do you provide consultations before services?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq16" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, consultations are available to help you choose the best services for your needs.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq17" aria-expanded="false" aria-controls="faq17">
+                               What products do you use for your services?
+
+
+
+
+                            </button>
+                    </h2>
+                    <div id="faq17" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We use high-quality, trusted brands to ensure the best results for our clients.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq18" aria-expanded="false" aria-controls="faq18">
+                               Do you offer services for men?
+
+
+
+
+                            </button>
+                    </h2>
+                    <div id="faq18" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           Yes, we provide grooming services tailored for men, including manicures, pedicures, and hairstyling.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq19" aria-expanded="false" aria-controls="faq19">
+                               Can I book an appointment for my child?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq19" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Children are welcome, but we recommend booking child-friendly services in advance.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq20" aria-expanded="false" aria-controls="faq20">
+                                Do you offer discounts for first-time customers?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq20" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, first-time customers enjoy 5% off their first service.
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq21" aria-expanded="false" aria-controls="faq21">
+                                What is your policy on late arrivals?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq21" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           Late arrivals may result in a additional fee, shortened service or rescheduling, depending on availability.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq22" aria-expanded="false" aria-controls="faq22">
+                                Are your services customizable?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq22" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                           Absolutely! We tailor our services to meet your unique preferences and needs.
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq23" aria-expanded="false" aria-controls="faq23">
+                                Do you offer photoshoot service sessions?
+
+
+                            </button>
+                    </h2>
+                    <div id="faq23" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Absolutely! We provide professional photoshoot services for bridal looks, editorial makeup, themed beauty photography, glam transformations,special events, and personal beauty portfolios.
+                            We have packages that combine hairstyling, makeup, and a professional photoshoot session.
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+
+<div>
+    <h2 class="text-center" style="color: rgb(251, 3, 86); font-family: 'Courier New', Courier, monospace; font-weight: 600;">Have More Questions?</h2>
+    <p class="text-center">If you have any more questions or need further assistance, feel free to contact us at <a href="mailto: haykaypeebr@gmail.com" style="color: rgb(251, 3, 86);">haykaypeebr@gmail.com</a>
+</div>
+
+<br>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 style="color: rgba(251, 3, 86, 0.516); font-family: 'Courier New', Courier, monospace; font-weight: 600;">Thank you for visiting our FAQ page!</h2>
+                <p>We hope this information helps you. If you have any more questions, don't hesitate to reach out.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br><br>
+
+
+<!-- BEAUTY TIPS -->
+<section>
+    <div class="container text-center">
+        <h2 class="text-center" style="color: rgb(251, 3, 86); font-family: 'Courier New', Courier, monospace; font-weight: 600;">BEAUTY TIPS</h2>
+        <h6 class="text-center">Here are some beauty tips to help you look and feel your best:</h6>
+        <h6><ul class="list-unstyled text-align-left">
+            <li>💖Stay hydrated by drinking plenty of water.
+                 Keeps your skin looking fresh and radiant.
+            </li><br>
+            <li>💖Use sunscreen daily to protect your skin from UV damage.</li><br>
+            <li>💖Get enough sleep to allow your skin to rejuvenate.</li><br>
+             <li>💖Cleanse & Moisturize Daily.
+                A good skincare routine starts with proper cleansing and hydration.
+             </li><br>
+            <li>💖Never Sleep with Makeup On.
+                Always remove your makeup before going to bed to prevent clogged pores and breakouts.
+            </li><br>
+            <li>💖Exfoliate for Glowing Skin.<br>
+                Gentle exfoliation helps remove dead skin cells and enhances complexion.
+            </li><br>
+            <li>💖Choose the Right Products.
+            </li><br>
+             <li>💖Experiment with different hairstyles to find what suits you best.</li><br>
+            <li>💖Regularly trim your hair to keep it healthy and prevent split ends.</li><br>
+            <li>💖Invest in quality beauty tools for better results.</li> <br>
+            <li>💖Practice self-care and take time for yourself to relax and rejuvenate.</li><br>
+             <li>💖Healthy Hair Care.<br>
+                Deep-condition your hair regularly to maintain its shine and strength.
+            </li><br>
+             <li>💖Manicure Maintenance.<br>
+                Keep nails hydrated with cuticle oil and avoid harsh chemicals.
+            </li><br>
+            <li>💖Perfect Your Foundation Match. <br>
+                Find your ideal foundation shade based on undertones and skin type.</li><br>
+            <li>💖Choose makeup products that suit your skin type.<br>
+                Use beauty products suited to your skin type for the best results.
+            </li><br>
+            <li>💖Maintain a balanced diet rich in vitamins and minerals.</li><br>
+           <li>💖Makeup Hacks for Long Lasting Wear. </li><br>
+            <li>💖Set your makeup with a setting spray or powder for all-day freshness.</li>
+            <li>💖Use a primer before applying makeup to create a smooth base.</li>
+            <li>💖Keep your makeup brushes clean to prevent breakouts and ensure flawless application.</li>
+           
+        </ul></h6>
+    </div>
+</section>
+
+
+
+<br><br><br>
+
+<!-- TIPS FOR A GREAT EXPERIENCE -->
+<section>
+    <div class="text-center" >
+        <h2 style="color: rgb(251, 3, 86); font-family: 'Courier New', Courier, monospace; font-weight: 600;">TIPS FOR A GREAT EXPERIENCE</h2>
+        <ul class="list-unstyled text-align-left">
+            <li>💖Book your appointment in advance to secure your preferred time.</li><br>
+            <li>💖Be prepared on time to ensure you get the full benefit of your service.</li><br>
+            <li>💖Communicate any specific preferences or concerns with our staff.</li><br>
+            <li>💖Relax and enjoy the pampering experience!</li><br>
+        </ul>
+    </div>
+</section>
+
+<br><br><br>
+
+
+<!-- THIS IS MY FOOTER CODE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .footer {
+            background: linear-gradient(145deg, #1a1c23, #242730);
+            color: #ffffff;
+        }
+        
+        .footer-title {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 30px;
+            height: 2px;
+            background:rgb(251, 3, 86);
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: #b4b6bb;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #ffffff;
+            padding-left: 5px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            color: #ffffff;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background:rgb(251, 3, 86);
+            transform: translateY(-3px);
+        }
+        
+        .newsletter-input {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #ffffff;
+        }
+        
+        .newsletter-input:focus {
+            background: rgba(255,255,255,0.15);
+            border-color:rgb(251, 3, 86);
+            color: #ffffff;
+            box-shadow: none;
+        }
+        
+        .btn-subscribe {
+            background: rgb(251, 3, 86);
+            border: none;
+            padding: 0.5rem 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-subscribe:hover {
+            background:rgb(169, 77, 107);
+            transform: translateY(-2px);
+        }
+        
+        .footer-bottom {
+            background: rgba(0,0,0,0.2);
+        }
+        
+        .footer-bottom a {
+            color:rgb(251, 3, 86);
+            text-decoration: none;
+        }
+        
+        .footer-bottom a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="footer-title">About BREIFA</h3>
+                    <p class="mb-4">Step into elegance at BREIFA <br>—where beauty meets expertise. <br>Experience top-tier treatments, personalized care, and a touch of luxury. <br>Your glow starts here!</p>
+                    <div class="social-links mb-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                         <li><a href="ceo.html">Ceo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="faq.html">Help Center</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="termsofservices.html">Terms of Service</a></li>
+                        <li><a href="cookie.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class= "mb-4">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+                    <form class="mb-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control newsletter-input" placeholder="Enter your email">
+                            <button class="btn btn-subscribe text-white" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="small">By subscribing, you agree to our Privacy Policy and consent to receive updates.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom mt-5">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2025 BREIFA. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by <a href="ceo.html">FAITH BROWN</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
